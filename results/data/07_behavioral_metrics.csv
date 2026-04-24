@@ -1,0 +1,21 @@
+env,method,success_rate,falls_mean,steps_mean,regret
+Det Cliff,SARSA,0.83,0.00±0.00,97.4±32.9,6362±192
+Det Cliff,Q-learning,1.00,0.00±0.00,13.0±0.0,4722±175
+Det Cliff,Expected SARSA,0.97,0.00±0.00,31.2±15.9,5518±134
+Det Cliff,Double ES,0.60,0.00±0.00,210.2±43.2,9206±501
+Det Cliff,RR-ES (δ=1.0),1.00,0.00±0.00,13.0±0.0,4946±300
+Stoch Cliff,SARSA,1.00,0.23±0.06,37.7±3.8,15116±936
+Stoch Cliff,Q-learning,0.96,0.26±0.08,56.8±17.2,12687±640
+Stoch Cliff,Expected SARSA,1.00,0.17±0.05,42.7±6.3,12450±636
+Stoch Cliff,Double ES,0.98,0.33±0.11,58.7±13.9,18502±1019
+Stoch Cliff,RR-ES (δ=1.0),0.98,0.26±0.08,52.8±13.3,13990±687
+Corr Cliff,SARSA,0.93,0.00±0.00,43.9±22.3,8770±149
+Corr Cliff,Q-learning,1.00,0.00±0.00,11.0±0.0,10899±201
+Corr Cliff,Expected SARSA,0.93,0.00±0.00,43.6±22.3,8181±91
+Corr Cliff,Double ES,0.67,0.00±0.00,174.2±42.1,9702±285
+Corr Cliff,RR-ES (δ=1.0),1.00,0.00±0.00,11.0±0.0,10813±213
+Stoch Corr Cliff,SARSA,1.00,0.11±0.04,26.3±2.2,15249±711
+Stoch Corr Cliff,Q-learning,1.00,0.07±0.02,22.1±1.8,17962±479
+Stoch Corr Cliff,Expected SARSA,1.00,0.06±0.01,22.0±1.3,17070±406
+Stoch Corr Cliff,Double ES,0.99,0.32±0.11,41.0±7.5,19314±929
+Stoch Corr Cliff,RR-ES (δ=1.0),1.00,0.09±0.02,26.1±2.5,18280±465
